@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<VBox fx:id="relationshipContainer" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.maingame.Controller.RelationshipsController" prefHeight="400" prefWidth="400"
+      spacing="10" stylesheets="css/relationships.css">
+
+    <Label text="Relationships" />
+
+    <Label text="Family" />
+            <ListView fx:id="familyListView" prefHeight="250.0" prefWidth="580.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList"/>
+                </items>
+            </ListView>
+
+            <Label text="Friends"/>
+            <ListView fx:id="friendsListView" prefHeight="250.0" prefWidth="580.0">
+                <items>
+                    <FXCollections fx:factory="observableArrayList"/>
+                </items>
+            </ListView>
+
+    <Button text="Close" alignment="CENTER" onAction="#handleCloseAction" />
+</VBox>

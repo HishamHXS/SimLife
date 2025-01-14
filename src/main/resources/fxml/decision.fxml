@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<DialogPane xmlns:fx="http://javafx.com/fxml" fx:id="decisionContainer" fx:controller="com.maingame.Controller.DecisionController">
+   <content>
+        <VBox spacing="10">
+            <Text fx:id="playerScenarioText"/>
+                <HBox spacing="10">
+                    <Button text="Yeah why not" onAction="#handleYesAction"/>
+                    <Button text="Maybe for another day" onAction="#handleNoAction"/>
+                </HBox>
+        </VBox>
+    </content>
+</DialogPane>

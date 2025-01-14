@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="settingsContainer" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.maingame.Controller.SettingsController" prefHeight="400" prefWidth="400"
+      spacing="10" stylesheets="css/settings.css">
+
+    <HBox>
+        <Label text="Music" />
+    </HBox>
+
+    <HBox>
+        <Button fx:id="musicStateButton" text="Pause" onAction="#changeMusicStateAction"/>
+        <Button  text="Skip" onAction="#skipSongAction"/>
+    </HBox>
+
+    <Button text="Close" alignment="CENTER" onAction="#handleCloseAction" />
+</VBox>

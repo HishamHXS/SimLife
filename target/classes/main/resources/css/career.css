@@ -1,0 +1,92 @@
+.root {
+    -fx-background-color: #e6d8ad;
+    -fx-font-family: "Verdana", "Arial", sans-serif;
+}
+
+HBox {
+    -fx-alignment: center;
+    -fx-background-color: #dbc59a;
+    -fx-padding: 5px;
+    -fx-border-color: #a67c52;
+    -fx-border-width: 2px;
+    -fx-border-radius: 6px;
+}
+
+Label {
+    -fx-text-fill: #5e4428;
+    -fx-font-size: 14px;
+}
+
+Text {
+    -fx-fill: #3b2f2f;
+    -fx-font-size: 14px;
+}
+
+Button {
+    -fx-background-color: linear-gradient(#a67c52, #8b5e34);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-border-color: #704c2b;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.3, 0, 2);
+}
+
+Button:hover {
+    -fx-background-color: linear-gradient(#8b5e34, #704c2b);
+}
+
+Button:pressed {
+    -fx-background-color: #5e3b1e;
+}
+
+#degreeListView {
+    -fx-background-color: #f4e1c1;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+    -fx-border-color: #a67c52;
+    -fx-border-width: 2px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Verdana", sans-serif;
+}
+
+#degreeListView .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #3b2f2f;
+    -fx-padding: 8px;
+}
+
+#degreeListView .list-cell:hover {
+    -fx-background-color: #dbc59a;
+}
+
+#degreeListView .scroll-bar:vertical {
+    -fx-background-color: #f4e1c1;
+    -fx-pref-width: 10px;
+}
+
+#workListView {
+    -fx-background-color: #f4e1c1;
+    -fx-border-radius: 8px;
+    -fx-padding: 10px;
+    -fx-border-color: #a67c52;
+    -fx-border-width: 2px;
+    -fx-font-size: 14px;
+    -fx-font-family: "Verdana", sans-serif;
+}
+
+#workListView  .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #3b2f2f;
+    -fx-padding: 8px;
+}
+
+#workListView  .list-cell:hover {
+    -fx-background-color: #dbc59a;
+}
+
+#workListView  .scroll-bar:vertical {
+    -fx-background-color: #f4e1c1;
+    -fx-pref-width: 10px;
+}

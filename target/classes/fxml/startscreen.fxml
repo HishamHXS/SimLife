@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+    <VBox spacing="20" alignment="CENTER" fx:controller="com.maingame.Controller.StartScreenController"
+          xmlns:fx="http://javafx.com/fxml/1" stylesheets="css/startscreen.css">
+
+        <Text text="SimSaga" style="-fx-font-size: 28px; -fx-font-weight: bold;"/>
+        <Button text="Play a new life" onAction="#handlePlayAction"/>
+        <Button text="Load a previous life" onAction="#handleLoadGameAction"/>
+        <Button text="Exit" onAction="#handleExitAction"/>
+    </VBox>

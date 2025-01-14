@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+    <StackPane fx:id="careerContainer" fx:controller="com.maingame.Controller.CareerController"
+               xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" stylesheets="css/career.css">
+
+        <VBox fx:id="careerPage">
+            <Text fx:id="careerDetails"/>
+            <Text fx:id="institutionName"/>
+            <Button fx:id="showCollegeOptions" text="Show college options" visible="false" onAction="#showCollegeOptions"/>
+            <Button fx:id="showWorkOptions" text="Show work options" visible="false" onAction="#showWorkOptions"/>
+            <Button text="Close" onAction="#handleCloseAction"/>
+        </VBox>
+
+        <VBox fx:id="collegeOptionsPage" visible="false">
+            <Label text="Choose a Degree"/>
+            <ListView fx:id="degreeListView"/>
+            <Button text="Back" onAction="#goBackToCareerPage"/>
+        </VBox>
+
+        <VBox fx:id="workOptionsPage" visible="false">
+            <Label text="Choose a Job"/>
+            <ListView fx:id="workListView"/>
+            <Button text="Back" onAction="#goBackToCareerPage"/>
+        </VBox>
+    </StackPane>

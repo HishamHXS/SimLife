@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox fx:id="deathScreenContainer" xmlns="http://javafx.com/javafx/8.0"
+      xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.maingame.Controller.DeathScreenController"
+      spacing="20" alignment="CENTER">
+
+    <Text text="You Died" style="-fx-font-size: 30px; -fx-font-weight: bold;"/>
+    <Button text="Return to Main Menu"
+            onAction="#returnToMainMenu"
+            style="-fx-padding: 10px 20px; -fx-font-size: 16px;"/>
+</VBox>
+

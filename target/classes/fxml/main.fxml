@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.maingame.Controller.MainController" alignment="center"
+           stylesheets="css/main.css">
+    <VBox spacing="10" alignment="CENTER" prefWidth="800" prefHeight="600">
+
+        <TextArea fx:id="messageConsole" prefHeight="400" prefWidth="800" editable="false" wrapText="true"
+                  VBox.vgrow="ALWAYS"/>
+
+        <HBox spacing="20" alignment="CENTER" prefWidth="800">
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Name:" />
+                <Text fx:id="nameText" />
+            </HBox>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Age:" />
+                <Text fx:id="ageText" />
+            </HBox>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Wealth:" />
+                <Text fx:id="wealthText" />
+            </HBox>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Happiness:" />
+                <Text fx:id="happinessText" />
+            </HBox>
+            <HBox spacing="10" alignment="CENTER_LEFT">
+                <Label text="Health:" />
+                <Text fx:id="healthText" />
+            </HBox>
+        </HBox>
+
+        <HBox>
+            <Button text="Career" onAction="#handleCareerAction" prefWidth="200"/>
+            <Button text="Age One Year" onAction="#handleAgeAction" prefWidth="200" />
+            <Button text="Relationships" onAction="#handleRelationshipsAction" prefWidth="200"/>
+            <Button text="Settings" onAction="#handleSettingsAction" prefWidth="200"/>
+        </HBox>
+    </VBox>
+
+    <VBox fx:id="decisionPopup" visible="false" alignment="BOTTOM_CENTER" prefWidth="200" prefHeight="200"/>
+    <VBox fx:id="careerPopup" visible="false" alignment="CENTER" prefWidth="400" prefHeight="400"/>
+    <VBox fx:id="relationshipsPopup" visible="false" alignment="CENTER" prefWidth="400" prefHeight="400"/>
+    <VBox fx:id="settingsPopup" visible="false" alignment="CENTER" prefWidth="400" prefHeight="400"/>
+    <VBox fx:id="deathPopup" visible="false" alignment="CENTER" prefWidth="400" prefHeight="400"/>
+</StackPane>

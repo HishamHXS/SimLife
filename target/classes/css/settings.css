@@ -1,0 +1,49 @@
+.root {
+    -fx-background-color: #f9f2e1;
+    -fx-font-family: "Verdana", "Arial", sans-serif;
+}
+
+#settingsContainer {
+    -fx-background-color: #e6d8ad;
+    -fx-border-color: #a67c52;
+    -fx-border-width: 3px;
+    -fx-border-radius: 10px;
+    -fx-padding: 15px;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 8, 0.5, 0, 3);
+}
+
+HBox {
+    -fx-padding: 10px;
+    -fx-alignment: center;
+}
+
+VBox {
+    -fx-alignment: center;
+}
+
+Label {
+    -fx-text-fill: #5e4428;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+        -fx-padding: 10px;
+}
+
+Button {
+    -fx-background-color: linear-gradient(#8b5e34, #a67c52);
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 6px;
+    -fx-border-width: 2px;
+    -fx-border-color: #704c2b;
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.3), 5, 0.4, 0, 2);
+}
+
+Button:hover {
+    -fx-background-color: linear-gradient(#704c2b, #8b5e34);
+}
+
+Button:pressed {
+    -fx-background-color: #5e3b1e;
+}
