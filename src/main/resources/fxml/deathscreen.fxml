@@ -6,7 +6,7 @@
 
 <VBox fx:id="deathScreenContainer" xmlns="http://javafx.com/javafx/8.0"
       xmlns:fx="http://javafx.com/fxml/1"
-      fx:controller="com.maingame.Controller.DeathScreenController"
+      fx:controller="com.maingame.controller.DeathScreenController"
       spacing="20" alignment="CENTER">
 
     <Text text="You Died" style="-fx-font-size: 30px; -fx-font-weight: bold;"/>

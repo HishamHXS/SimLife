@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-    <StackPane fx:id="careerContainer" fx:controller="com.maingame.Controller.CareerController"
+    <StackPane fx:id="careerContainer" fx:controller="com.maingame.controller.CareerController"
                xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" stylesheets="css/career.css">
 
         <VBox fx:id="careerPage">

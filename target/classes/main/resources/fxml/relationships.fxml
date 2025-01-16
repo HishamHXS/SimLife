@@ -5,7 +5,7 @@
 <?import javafx.collections.FXCollections?>
 
 <VBox fx:id="relationshipContainer" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.maingame.Controller.RelationshipsController" prefHeight="400" prefWidth="400"
+      fx:controller="com.maingame.controller.RelationshipsController" prefHeight="400" prefWidth="400"
       spacing="10" stylesheets="css/relationships.css">
 
     <Label text="Relationships" />

@@ -8,7 +8,7 @@
 <?import javafx.scene.text.Text?>
 <?import javafx.scene.layout.StackPane?>
 
-<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.maingame.Controller.MainController" alignment="center"
+<StackPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.maingame.controller.MainController" alignment="center"
            stylesheets="css/main.css">
     <VBox spacing="10" alignment="CENTER" prefWidth="800" prefHeight="600">
 

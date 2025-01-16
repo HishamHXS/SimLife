@@ -5,7 +5,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Text?>
 
-<DialogPane xmlns:fx="http://javafx.com/fxml" fx:id="decisionContainer" fx:controller="com.maingame.Controller.DecisionController">
+<DialogPane xmlns:fx="http://javafx.com/fxml" fx:id="decisionContainer" fx:controller="com.maingame.controller.DecisionController">
    <content>
         <VBox spacing="10">
             <Text fx:id="playerScenarioText"/>

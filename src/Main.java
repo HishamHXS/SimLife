@@ -3,7 +3,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-import com.maingame.Controller.StartScreenController;
+import com.maingame.controller.StartScreenController;
 
 import java.io.IOException;
 

@@ -4,7 +4,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-    <VBox spacing="20" alignment="CENTER" fx:controller="com.maingame.Controller.StartScreenController"
+    <VBox spacing="20" alignment="CENTER" fx:controller="com.maingame.controller.StartScreenController"
           xmlns:fx="http://javafx.com/fxml/1" stylesheets="css/startscreen.css">
 
         <Text text="SimSaga" style="-fx-font-size: 28px; -fx-font-weight: bold;"/>
